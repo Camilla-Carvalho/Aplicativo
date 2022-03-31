@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenResult">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/idTxtView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primeira nota: " />
+
+        <TextView
+            android:id="@+id/idNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/idTxtView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segunda nota: " />
+
+        <TextView
+            android:id="@+id/idNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/idTxtView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terceira nota: " />
+
+        <TextView
+            android:id="@+id/idNota4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/idTxtViewNotaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Media final: " />
+
+        <TextView
+            android:id="@+id/idMediaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/idTxtViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado:" />
+
+        <TextView
+            android:id="@+id/idResultadoFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/idDisciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Disciplina: " />
+
+        <EditText
+            android:id="@+id/idNomeAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nome do Aluno: " />
+
+        <EditText
+            android:id="@+id/idFrequência"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Quantidade de Faltas: " />
+
+        <Button
+            android:id="@+id/idBtnCompartilhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compartilhar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
